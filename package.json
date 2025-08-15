@@ -1,0 +1,31 @@
+{
+  "name": "smtp2webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panoti/smtp2webhook.git"
+  },
+  "keywords": [
+    "smtp",
+    "webhook",
+    "smtp2webhook"
+  ],
+  "author": "Thanh Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panoti/smtp2webhook/issues"
+  },
+  "homepage": "https://github.com/panoti/smtp2webhook#readme",
+  "dependencies": {
+    "mailparser": "^3.7.4",
+    "smtp-server": "^3.14.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^7.0.5"
+  }
+}
